@@ -9,7 +9,7 @@ public class Vector {
 		this.z = z;
 	}
 
-	public Vector(Point p) {
+	public Vector(final Point p) {
 		this(p.x, p.y, p.z);
 	}
 
@@ -18,7 +18,7 @@ public class Vector {
 	 * @param from
 	 * @param to
 	 */
-	public Vector(Point from, Point to) {
+	public Vector(final Point from, final Point to) {
 		this(to.x - from.x, to.y - from.y, to.z - from.z);
 	}
 
