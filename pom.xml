@@ -18,15 +18,4 @@
         </dependency>
     </dependencies>
     
-    <build>
-        <sourceDirectory>..\src</sourceDirectory>
-        <resources>
-            <resource>
-                <directory>../</directory>
-                <includes>
-                    <include>**/*.bmp</include>
-                </includes>
-            </resource>
-        </resources>
-    </build>
 </project>

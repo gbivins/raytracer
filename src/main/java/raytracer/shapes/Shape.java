@@ -7,7 +7,7 @@ import raytracer.pigments.Pigment;
 import java.awt.Color;
 
 
-public abstract class Shape {
+public abstract class Shape{ 
 	public Pigment pigment;
 	public Finish finish;
 
